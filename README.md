@@ -1,0 +1,18 @@
+# ownCloud on Alpine
+
+[![docker hub](https://img.shields.io/badge/docker-image-blue.svg?style=flat-square)](https://registry.hub.docker.com/u/splattael/owncloud/)
+
+Image size: ??.?? MB
+
+## Docker run
+
+    docker run \
+      --link mysql:mysql
+      --name owncloud \
+      -P \
+      splattael/owncloud
+
+## Software
+
+* apache2-2.4.10-r0
+* php-apache2-5.6.8-r0
