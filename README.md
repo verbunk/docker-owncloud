@@ -2,7 +2,7 @@
 
 [![docker hub](https://img.shields.io/badge/docker-image-blue.svg?style=flat-square)](https://registry.hub.docker.com/u/splattael/owncloud/)
 
-Image size: ??.?? MB
+Image size: 97.29 MB
 
 ## Docker run
 
@@ -16,3 +16,4 @@ Image size: ??.?? MB
 
 * apache2-2.4.10-r0
 * php-apache2-5.6.8-r0
+* owncloud 8.0.4 (from source)
