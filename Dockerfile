@@ -1,7 +1,7 @@
 FROM alpine
 MAINTAINER Peter Suschlik <peter@suschlik.de>
 
-ENV RELEASE_DATE 2015-06-09
+ENV RELEASE_DATE 2015-07-03
 ENV OWNCLOUD_VERSION 8.0.4
 
 ENV OWNCLOUD_PACKAGE owncloud-$OWNCLOUD_VERSION.tar.bz2
@@ -36,4 +36,4 @@ VOLUME ["/var/log/apache2", "/tmp"]
 
 EXPOSE 80
 
-CMD /usr/sbin/apachectl -D FOREGROUND
+CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
