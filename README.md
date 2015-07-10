@@ -2,7 +2,7 @@
 
 [![docker hub](https://img.shields.io/badge/docker-image-blue.svg?style=flat-square)](https://registry.hub.docker.com/u/splattael/owncloud/)
 
-Image size: 97.29 MB
+Image size: 110.8 MB
 
 ## Docker run
 
