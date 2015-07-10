@@ -18,8 +18,7 @@ RUN \
     php-json php-mysql php-curl php-xml php-iconv php-ctype php-dom \
     php-posix php-zip php-zlib php-bz2 php-openssl php-mcrypt \
     php-ftp php-xcache php-pdo_mysql php-gd && \
-  rm -fr /var/cache/apk/* && \
-  rm -fr /usr/bin/php
+  rm -fr /var/cache/apk/*
 
 RUN cd /usr/share && \
   curl -LOs $OWNCLOUD_URL && \
