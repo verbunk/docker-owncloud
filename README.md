@@ -16,4 +16,4 @@ Image size: 110.8 MB
 
 * apache2-2.4.10-r0
 * php-apache2-5.6.8-r0
-* owncloud 8.0.4 (from source)
+* owncloud 8.1.0 (from source)
