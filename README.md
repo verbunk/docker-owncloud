@@ -14,6 +14,12 @@ Image size: 110.8 MB
 
 ## Software
 
-* apache2-2.4.10-r0
-* php-apache2-5.6.8-r0
-* owncloud 8.1.0 (from source)
+* apache2-2.4.12-r1
+* php-apache2-5.6.13-r0
+* owncloud 8.1.3 (from source)
+
+## Notes
+
+### 8.1.3
+
+* Don't forget to copy `ca-bundle.crt` into your `VOLUME`/config directory

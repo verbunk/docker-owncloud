@@ -2,7 +2,7 @@ FROM alpine
 MAINTAINER Peter Suschlik <peter@suschlik.de>
 
 ENV RELEASE_DATE 2015-07-10
-ENV OWNCLOUD_VERSION 8.1.0
+ENV OWNCLOUD_VERSION 8.1.3
 
 ENV OWNCLOUD_PACKAGE owncloud-$OWNCLOUD_VERSION.tar.bz2
 ENV OWNCLOUD_URL https://download.owncloud.org/community/$OWNCLOUD_PACKAGE

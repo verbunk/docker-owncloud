@@ -1,6 +1,7 @@
 
 NAME=owncloud
 PWD=$(shell pwd)
+VERSION=8.1.3
 
 build:
 	docker build -t ${NAME} .
@@ -13,3 +14,9 @@ test: build
 
 daemon: build
 	docker run -d --name ${NAME} ${NAME}
+
+release:
+	git commit -av -e -m "Upgrade to owncloud ${VERSION}" && \
+	git tag -f v${VERSION} && \
+	git push && \
+	git push --tags -f
