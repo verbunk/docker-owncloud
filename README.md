@@ -1,8 +1,7 @@
 # ownCloud on Alpine
 
 [![docker hub](https://img.shields.io/badge/docker-image-blue.svg?style=flat-square)](https://registry.hub.docker.com/u/splattael/owncloud/)
-
-Image size: 110.8 MB
+[![imagelayers](https://badge.imagelayers.io/splattael/owncloud:latest.svg)](https://imagelayers.io/?images=splattael/owncloud:latest)
 
 ## Docker run
 
