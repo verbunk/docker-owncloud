@@ -17,6 +17,6 @@ daemon: build
 
 release:
 	git commit -av -e -m "Upgrade to owncloud ${VERSION}" && \
-	git tag -f v${VERSION} && \
+	git tag -f ${VERSION} && \
 	git push && \
 	git push --tags -f
