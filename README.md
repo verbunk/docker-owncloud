@@ -1,4 +1,4 @@
-# ownCloud on Alpine
+# ownCloud on Alpine 3.2
 
 [![docker hub](https://img.shields.io/badge/docker-image-blue.svg?style=flat-square)](https://registry.hub.docker.com/u/splattael/owncloud/)
 [![imagelayers](https://badge.imagelayers.io/splattael/owncloud:latest.svg)](https://imagelayers.io/?images=splattael/owncloud:latest)
@@ -13,8 +13,8 @@
 
 ## Software
 
-* apache2-2.4.12-r1
-* php-apache2-5.6.13-r0
+* apache2-2.4.16-r0
+* php-apache2-5.6.14-r0
 * owncloud 8.1.3 (from source)
 
 ## Notes
